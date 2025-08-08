@@ -1,0 +1,61 @@
+body{
+    background-image: url("image/download (2).jfif");
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    
+}
+H1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+h2{
+    font-size: 50px;
+    margin-top: 0%;
+    margin-bottom: 20px;
+}
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    color: rgb(250, 247, 247);
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+/* #increment-btn {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+} */
+.container {
+    background:white;
+    border: 3px solid black;
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+#increment-btn{
+    background:rgb(96, 7, 7);
+
+}
+#Save-btn {
+    background: darkgreen;
+
+}
+#Save-btn:hover {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+#increment-btn:hover {
+    background: rgb(0, 0, 0);
+    color: white;
+}
